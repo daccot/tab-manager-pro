@@ -1,104 +1,153 @@
 # Privacy Policy for Tab Manager Pro
 
-**Last Updated:** 2026-03-27
+**Last Updated:** 2026-04-12
+
+---
 
 ## Overview
 
-Tab Manager Pro is a Chrome extension designed to help users organize and manage browser tabs efficiently.
+Tab Manager Pro is a Chrome extension designed to help users organize and manage browser tabs efficiently through domain-based grouping, quick actions, and structured tab management features.
 
-We respect user privacy and are committed to transparency.  
-This extension does **not collect, store, or transmit personal data**.
+We respect user privacy and are committed to transparency.
 
-All functionality runs **locally within the user's browser**.
+**Tab Manager Pro does not collect, transmit, or sell any personal data.**
+
+All functionality operates locally within the user's browser.
 
 ---
 
 ## Data Collection
 
-Tab Manager Pro **does not collect any personally identifiable information (PII)**.
+Tab Manager Pro does **not collect any personally identifiable information (PII)**.
 
-The extension may temporarily access limited tab information in order to provide its features, including:
+To provide its core functionality, the extension may access limited tab-related data, including:
 
-- Tab URLs (used for detecting duplicate tabs and grouping by domain)
-- Tab titles (used for display and organization)
-- Tab state (such as pinned or active status)
+- Tab URLs (used for domain grouping and duplicate detection)
+- Tab titles (used for display and sorting)
+- Tab state (such as pinned, muted, or active status)
+- Last accessed time (used for sorting and archive features)
 
-This information is processed **locally in the browser only** and is **never transmitted to external servers**.
+This data is:
+
+- Processed **locally within the browser only**
+- **Never transmitted** to any external server
+- **Never stored outside the user's device**
 
 ---
 
 ## Data Storage
 
-The extension uses Chrome's `storage` API to store minimal user preferences, such as:
+The extension uses Chrome's `storage` API to store minimal configuration data locally, including:
 
-- Selected language
+- Selected language (English / Japanese)
+- Feature toggle settings (enabled/disabled features)
+- Saved sessions (tab sets)
+- Archived tab data (for restore functionality)
 - UI preferences
 
-All stored data remains **on the user's local device** and is not shared externally.
+All stored data:
+
+- Remains **on the user's local device**
+- Is **not shared or synced externally**
+- Can be cleared by the user at any time
 
 ---
 
 ## Data Sharing
 
-Tab Manager Pro **does not sell, share, or transfer any user data** to third parties.
+Tab Manager Pro:
 
-No user data is transmitted outside the browser.
+- Does **not sell** user data
+- Does **not share** user data
+- Does **not transfer** user data to third parties
+
+No user data leaves the browser environment.
 
 ---
 
 ## Permissions Usage
 
-The extension requests the following permissions only for its core functionality:
+The extension requests only the permissions required for its functionality:
 
 ### `tabs`
-Used to read tab information (URL, title, state) in order to:
-- detect duplicate tabs
-- pin or unpin tabs
-- organize tabs by domain
+Used to access tab information such as URL, title, and state in order to:
+
+- Detect duplicate tabs  
+- Sort tabs (by domain, title, recent use)  
+- Pin or unpin tabs  
+- Mute or unmute tabs  
+- Display tab lists and group contents  
+
+---
 
 ### `tabGroups`
-Used to create and manage Chrome tab groups when grouping tabs by domain.
+Used to create and manage Chrome tab groups:
+
+- Group tabs by domain  
+- Manage domain-based tab groups  
+- Remove tabs from groups  
+- Ungroup selected or all tab groups  
+
+---
 
 ### `storage`
-Used to store user preferences locally in the browser.
+Used to store user preferences locally:
 
-### `contextMenus`
-Used to provide quick tab management actions via the browser's right-click menu.
+- Language selection  
+- Feature toggles  
+- Saved sessions  
+- Archived tabs  
+- UI settings  
+
+---
+
+### `contextMenus` *(only if enabled)*
+
+Used to provide optional tab management actions via the browser's right-click menu.
+
+This feature can be disabled in the extension settings.
 
 ---
 
 ## Remote Code
 
-Tab Manager Pro **does not execute remote code**.  
-All scripts and functionality are bundled within the extension package.
+Tab Manager Pro **does not execute remote code**.
+
+All scripts and logic are bundled within the extension package and run locally.
 
 ---
 
 ## Security
 
-Because the extension does not transmit data externally, all processing remains inside the user's browser environment.
+Because all processing occurs locally and no data is transmitted externally:
 
-This minimizes privacy and security risks.
+- User data is not exposed to external systems  
+- No tracking or analytics are performed  
+- Risk of data leakage is minimized  
 
 ---
 
 ## Changes to This Policy
 
-This Privacy Policy may be updated occasionally.
+This Privacy Policy may be updated as the extension evolves.
 
-Any updates will be reflected on this page with a revised **Last Updated** date.
+Any changes will be reflected on this page with an updated "Last Updated" date.
 
 ---
 
 ## Contact
 
-If you have any questions about this Privacy Policy, please contact:
+If you have any questions regarding this Privacy Policy:
 
-**Developer:** Discord Recorder Labs
-**Repository:** https://github.com/daccot/tab-manager-pro/
+- Developer: Discord Recorder Labs  
+- Repository: https://github.com/daccot/tab-manager-pro/
+
+---
 
 ## Summary
-No data collection
-No tracking
-No external servers
-Everything runs locally in your browser
+
+- No data collection  
+- No tracking  
+- No external servers  
+- No data sharing  
+- All processing is local within the browser  
